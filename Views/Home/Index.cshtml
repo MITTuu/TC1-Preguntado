@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Inicio del Juego";
+    var userName = ViewData["UserName"] as string;
+    var userId = ViewData["UserId"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Preguntado</title>
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1 class="display-4">Bienvenido @(userName != null ? userName : "a Preguntado")</h1>
+        <input type="hidden" id="user-id" value="@userId" />
+
+        <button id="start-button" class="btn btn-primary mb-3">Iniciar Partida</button>
+
+        <button id="restart-button" class="btn btn-primary">Volver a jugar</button>
+
+        <div id="game-container" class="game-container">
+            <div id="score-container" class="mb-3">
+                <h3>Puntaje: <span id="score">0</span></h3>
+                <h3>Pregunta: <span id="question-number">0</span> / <span id="total-questions">10</span></h3>
+            </div>
+            <div id="question-container" style="display:none;">
+                <div id="question-text" class="mb-3"></div>
+                <div id="answers-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/index.js" asp-append-version="true"></script>
+</body>
+</html>

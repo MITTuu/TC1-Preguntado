@@ -1,0 +1,122 @@
+﻿[
+  {
+    "Id": 1,
+    "Pregunta": "¿Cuál es la capital de Francia?",
+    "Respuesta": "París",
+    "Incorrectas": [ "Berlín", "Madrid" ]
+  },
+  {
+    "Id": 2,
+    "Pregunta": "¿En qué año se llegó a la Luna por primera vez?",
+    "Respuesta": "1969",
+    "Incorrectas": [ "1965", "1972" ]
+  },
+  {
+    "Id": 3,
+    "Pregunta": "¿Cuál es el océano más grande?",
+    "Respuesta": "Pacífico",
+    "Incorrectas": [ "Atlántico", "Índico" ]
+  },
+  {
+    "Id": 4,
+    "Pregunta": "¿Quién escribió 'Cien años de soledad'?",
+    "Respuesta": "Gabriel García Márquez",
+    "Incorrectas": [ "Mario Vargas Llosa", "Julio Cortázar" ]
+  },
+  {
+    "Id": 5,
+    "Pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "Respuesta": "Mercurio",
+    "Incorrectas": [ "Venus", "Marte" ]
+  },
+  {
+    "Id": 6,
+    "Pregunta": "¿Quién pintó la Mona Lisa?",
+    "Respuesta": "Leonardo da Vinci",
+    "Incorrectas": [ "Pablo Picasso", "Vincent van Gogh" ]
+  },
+  {
+    "Id": 7,
+    "Pregunta": "¿Cuál es el símbolo químico del oro?",
+    "Respuesta": "Au",
+    "Incorrectas": [ "Ag", "Pb" ]
+  },
+  {
+    "Id": 8,
+    "Pregunta": "¿En qué continente se encuentra Egipto?",
+    "Respuesta": "África",
+    "Incorrectas": [ "Asia", "Europa" ]
+  },
+  {
+    "Id": 9,
+    "Pregunta": "¿Quién es el autor de 'El Quijote'?",
+    "Respuesta": "Miguel de Cervantes",
+    "Incorrectas": [ "Luis de Góngora", "Francisco de Quevedo" ]
+  },
+  {
+    "Id": 10,
+    "Pregunta": "¿Cuál es la capital de Japón?",
+    "Respuesta": "Tokio",
+    "Incorrectas": [ "Seúl", "Pekín" ]
+  },
+  {
+    "Id": 11,
+    "Pregunta": "¿Qué país ganó la Copa Mundial de Fútbol en 2018?",
+    "Respuesta": "Francia",
+    "Incorrectas": [ "Alemania", "Brasil" ]
+  },
+  {
+    "Id": 12,
+    "Pregunta": "¿Cuál es el idioma oficial de Brasil?",
+    "Respuesta": "Portugués",
+    "Incorrectas": [ "Español", "Inglés" ]
+  },
+  {
+    "Id": 13,
+    "Pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "Respuesta": "1914",
+    "Incorrectas": [ "1912", "1918" ]
+  },
+  {
+    "Id": 14,
+    "Pregunta": "¿Cuál es el animal terrestre más rápido?",
+    "Respuesta": "Cheetah",
+    "Incorrectas": [ "León", "Elefante" ]
+  },
+  {
+    "Id": 15,
+    "Pregunta": "¿Qué es la fotosíntesis?",
+    "Respuesta": "Proceso por el cual las plantas producen su propio alimento",
+    "Incorrectas": [ "Proceso por el cual las plantas producen oxígeno", "Proceso de reproducción de las plantas" ]
+  },
+  {
+    "Id": 16,
+    "Pregunta": "¿Cuál es el elemento químico más abundante en la Tierra?",
+    "Respuesta": "Oxígeno",
+    "Incorrectas": [ "Hierro", "Carbono" ]
+  },
+  {
+    "Id": 17,
+    "Pregunta": "¿Qué tipo de animal es el delfín?",
+    "Respuesta": "Mamífero",
+    "Incorrectas": [ "Reptil", "Pez" ]
+  },
+  {
+    "Id": 18,
+    "Pregunta": "¿Cuál es el río más largo del mundo?",
+    "Respuesta": "Amazonas",
+    "Incorrectas": [ "Nilo", "Misisipi" ]
+  },
+  {
+    "Id": 19,
+    "Pregunta": "¿Qué tipo de planeta es Júpiter?",
+    "Respuesta": "Gaseoso",
+    "Incorrectas": [ "Terrestre", "Rocoso" ]
+  },
+  {
+    "Id": 20,
+    "Pregunta": "¿Cuál es la fórmula química del agua?",
+    "Respuesta": "H2O",
+    "Incorrectas": [ "CO2", "O2" ]
+  }
+]

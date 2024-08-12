@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Preguntado.Models.HistorialPartidum>
+
+@{
+    ViewData["Title"] = "Historial de partidas";
+}
+
+<h1>Historial de partidas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Aciertos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPartida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resultado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdJugadorNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aciertos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaPartida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resultado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdJugadorNavigation.IdJugador)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
